@@ -1,0 +1,31 @@
+{
+  "name": "fwrbe",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dayjs": "^1.10.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mysql": "^2.18.1",
+    "ora": "^5.4.1",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
